@@ -32,7 +32,7 @@ public class Seat{
 		}
 	}
 	public String toString(){
-		return String.format("%s %s %s %.2f %b", seatID,seatType,seatType.price,isAvailable);
+		return String.format("%s %s %s %.2f %b", seatID,seatType,row,seatType.price,isAvailable);
 	}
 }
 enum SeatType{
